@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 
 @RestController
 public class Controller {
-	public ArrayList<User> inscriptions = new ArrayList<User>();
+	public final ArrayList<User> inscriptions = new ArrayList<User>();
 	
 	@PostMapping("/api/inscription")
 	public void Inscription(@RequestBody User Inscription ) throws InvalidEmailException, InvalidTemperatureException {	

@@ -2,8 +2,8 @@ package fr.lernejo.travelsite;
 
 public class Travel{
 	
-	public String country = "";
-	public double temperature = 0;
+	public final String country;
+	public final double temperature;
 	
 	
 	public Travel(String country, double temperature) {
